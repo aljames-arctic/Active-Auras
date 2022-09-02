@@ -2,13 +2,13 @@
   "name": "ActiveAuras",
   "title": "Active-Auras",
   "description": "Active-Auras",
-  "author": "Kandashi",
+  "author": "aljames-updater",
   "authors": [ { "name": "Kandashi", "url": "https://github.com/kandashi" }],
   "url": "https://github.com/kandashi/Active-Auras",
   "bugs": "https://github.com/kandashi/Active-Auras/issues",
   "flags": {},
   
-  "version": "0.4.0",
+  "version": "0.4.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9.242",
   "compatibility": {
