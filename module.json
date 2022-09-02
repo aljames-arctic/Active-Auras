@@ -1,4 +1,6 @@
 {
+  "manifest": "https://raw.githubusercontent.com/aljames-arctic/Active-Auras/main/module.json",
+  "download": "https://github.com/aljames-arctic/Active-Auras/zipball/master",
   "name": "ActiveAuras",
   "title": "Active-Auras",
   "description": "Active-Auras",
@@ -94,8 +96,6 @@
     }
   ],
   "socket": true,
-  "manifest": "https://raw.githubusercontent.com/aljames-arctic/Active-Auras/main/module.json",
-  "download": "https://github.com/aljames-arctic/Active-Auras/zipball/master",
   "protected": false,
   "coreTranslation": false
 }
