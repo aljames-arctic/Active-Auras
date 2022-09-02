@@ -3,13 +3,19 @@
   "title": "Active-Auras",
   "description": "Active-Auras",
   "author": "Kandashi",
-  "authors": [],
+  "authors": [ { "name": "Kandashi", "url": "https://github.com/kandashi" }],
   "url": "https://github.com/kandashi/Active-Auras",
   "bugs": "https://github.com/kandashi/Active-Auras/issues",
   "flags": {},
+  
   "version": "0.4.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9.242",
+  "compatibility": {
+        "minimum": "0.4.0",
+        "verified": "9.242"
+  },
+  
   "scripts": [
     "src/aura.js",
     "src/AAhelpers.js",
@@ -67,9 +73,9 @@
       "label": "Active Auras Zone Actors",
       "path": "packs/ZoneActors",
       "entity": "Actor",
-      "system": "dnd5e",
       "module": "ActiveAuras",
-      "private": false
+      "private": false,
+      "system": "dnd5e"
     },
     {
       "name": "Active Auras Macros",
@@ -77,7 +83,8 @@
       "path": "packs/macros",
       "entity": "Macro",
       "module": "ActiveAuras",
-      "private": false
+      "private": false,
+      "system": "dnd5e",
     }
   ],
   "dependencies" : [
@@ -87,11 +94,11 @@
     },
     {
       "name": "lib-wrapper"
-  }
+    }
   ],
   "socket": true,
-  "manifest": "https://raw.githubusercontent.com/kandashi/Active-Auras/main/module.json",
-  "download": "https://github.com/kandashi/Active-Auras/archive/main.zip",
+  "manifest": "https://raw.githubusercontent.com/aljames-arctic/Active-Auras/main/module.json",
+  "download": "https://github.com/aljames-arctic/Active-Auras/zipball/master",
   "protected": false,
   "coreTranslation": false
 }
